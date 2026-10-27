@@ -2,18 +2,6 @@
 
 베이커리 체인 "빵셀러"(6개 매장, 상품 5종)의 3개월 운영 데이터를 **인제스트 → 품질 진단 → 정제 → 변환 → 저장**하는 end-to-end 파이프라인입니다.
 
-## 폴더 구조
-
-```
-D009/
-├── D009_capstone.ipynb      # 전체 과정 + 결정 로그 + 보고서
-├── pipeline.py              # 정제·변환·저장 파이프라인 모듈 (심화)
-├── outputs/
-│   ├── bakery_store_month.parquet   # KPI 1: 매장 x 월 매출
-│   └── bakery_item_kpi.parquet      # KPI 2: 상품별 평균 단가·총매출
-└── README.md
-```
-
 ## 실행 방법
 
 `D009_capstone.ipynb`를 위에서부터 순서대로 실행합니다. 모듈만 쓰려면:
