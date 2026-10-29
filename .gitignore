@@ -1,3 +1,6 @@
 D010/*.csv
 .ipynb_checkpoints/
 __pycache__/
+drc_*.csv
+sanctions_cache*.csv
+ftm_cache/
